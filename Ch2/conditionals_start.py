@@ -4,7 +4,7 @@
 
 
 def main():
-    x, y = 1000, 1000
+    x, y = 1000, 100
 
     # conditional flow uses if, elif, else
     if x < y:
@@ -16,7 +16,8 @@ def main():
 
     print(st)
 # conditional statements let you use "a if C else b"
-
+    st = "x is less than y" if (x<y) else "x is greater than y"  #if (x>y)  else "x is the same as y" if (x==y)
+    print(st)
 
 if __name__ == "__main__":
     main()

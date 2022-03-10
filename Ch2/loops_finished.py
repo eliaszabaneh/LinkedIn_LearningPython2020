@@ -24,11 +24,17 @@ def main():
     #if (x == 7): break
     #if (x % 2 == 0): continue
     print (x)
-  
+  print("******************************************")
   #using the enumerate() function to get index 
   days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
   for i, d in enumerate(days):
+    if i % 3 == 0: continue
     print (i, d)
-  
+  print("******************************************")
+  days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+  for i, d in enumerate(days):
+    if i % 3 == 0:
+      print (i, d)
+  print("******************************************")
 if __name__ == "__main__":
   main()
